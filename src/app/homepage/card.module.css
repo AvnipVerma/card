@@ -1,0 +1,161 @@
+.containerbig{
+  display: flex;
+}
+
+.container {
+
+  max-width: 124rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.sectionSubheading {
+  /* Your styles for section subheading */
+}
+
+.sectionHeading {
+  /* Your styles for section heading */
+}
+
+#trending {
+  padding: 4rem 0;
+}
+
+@media (max-width: 1440px) {
+  #trending {
+    padding: 7rem 0;
+  }
+}
+
+.swiper {
+  /* Your styles for swiper */
+}
+
+.trendingSlider {
+  height: 52rem;
+  padding: 2rem 0;
+  position: relative;
+}
+
+@media (max-width: 1440px) {
+  .trendingSlider {
+    height: 45rem;
+  }
+}
+
+.swiperWrapper {
+  /* Your styles for swiper wrapper */
+}
+
+.swiperSlide {
+  /* Your styles for swiper slide */
+}
+
+.trendingSlide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .trendingSlide {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+}
+
+.trendingSlideImg {
+  position: relative;
+}
+
+.imageOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  border-radius: 2rem;
+  background: linear-gradient(to top, rgb(12, 12, 12), rgba(255, 255, 255, 0));
+}
+
+.trendingSlideImg img {
+  width: 37rem;
+  height: 42rem;
+  border-radius: 2rem;
+  object-fit: cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 70%);
+}
+
+.trendingSlideContent {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.shoePrice {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: var(--white);
+}
+
+.trendingSlideContentBottom {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: var(--white);
+}
+
+.shoeName {
+  /* Your styles for shoe name */
+}
+
+.shoeRating {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.shoeRating ion-icon {
+  color: var(--primary);
+}
+
+.swiperButtonPrev,
+.swiperButtonNext {
+  /* Your styles for swiper button prev and next */
+}
+
+.sliderArrow {
+  background: var(--white);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  left: 42%;
+  transform: translateX(-42%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.sliderArrow ion-icon {
+  font-size: 2rem;
+  color: #222224;
+}
+
+.swiperPagination {
+  position: relative;
+  width: 15rem;
+  bottom: 1rem;
+}
+
+.swiperPagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.swiperPagination .swiper-pagination-bullet-active {
+  background: var(--primary);
+}
